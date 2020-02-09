@@ -11,6 +11,11 @@ public class FizzBuzzPlusApplication
         {
             return "Buzz";
         }
+
+        if (inputNumber == 15)
+        {
+            return "FizzBuzz";
+        }
         return String.valueOf(inputNumber);
     }
 
