@@ -13,5 +13,13 @@ public class FizzBuzzPlusTest
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void InputATwoExpectATwo()
+    {
+        int expected = 2;
+        int actual = FizzBuzzPlusApplication.mainApplication(2);
+        assertEquals(expected, actual);
+    }
+
 
 }
