@@ -29,5 +29,13 @@ public class FizzBuzzPlusTest
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void InputAFiveExpectBuzz()
+    {
+        String expected = "Buzz";
+        String actual = FizzBuzzPlusApplication.mainApplication(5);
+        assertEquals(expected, actual);
+    }
+
 
 }

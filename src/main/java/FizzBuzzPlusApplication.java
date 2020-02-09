@@ -6,6 +6,11 @@ public class FizzBuzzPlusApplication
         {
             return "Fizz";
         }
+
+        if (inputNumber == 5)
+        {
+            return "Buzz";
+        }
         return String.valueOf(inputNumber);
     }
 
