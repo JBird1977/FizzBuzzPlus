@@ -1,8 +1,12 @@
 public class FizzBuzzPlusApplication
 {
-    public static int mainApplication(int inputNumber)
+    public static String mainApplication(int inputNumber)
     {
-        return inputNumber;
+        if (inputNumber == 3)
+        {
+            return "Fizz";
+        }
+        return String.valueOf(inputNumber);
     }
 
 }

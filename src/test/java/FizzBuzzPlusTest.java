@@ -8,16 +8,24 @@ public class FizzBuzzPlusTest
     @Test
     public void InputAOneExpectAOne()
     {
-        int expected = 1;
-        int actual = FizzBuzzPlusApplication.mainApplication(1);
+        String expected = "1";
+        String actual = FizzBuzzPlusApplication.mainApplication(1);
         assertEquals(expected, actual);
     }
 
     @Test
     public void InputATwoExpectATwo()
     {
-        int expected = 2;
-        int actual = FizzBuzzPlusApplication.mainApplication(2);
+        String expected = "2";
+        String actual = FizzBuzzPlusApplication.mainApplication(2);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void InputAThreeExpectFizz()
+    {
+        String expected = "Fizz";
+        String actual = FizzBuzzPlusApplication.mainApplication(3);
         assertEquals(expected, actual);
     }
 
