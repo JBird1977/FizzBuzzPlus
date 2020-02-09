@@ -2,21 +2,26 @@ public class FizzBuzzPlusApplication
 {
     public static String mainApplication(int inputNumber)
     {
-        if (inputNumber == 3)
+        String result = "";
+
+        result = String.valueOf(inputNumber);
+
+        if (inputNumber % 3 == 0)
         {
-            return "Fizz";
+            result = "Fizz";
         }
 
-        if (inputNumber == 5)
+        if (inputNumber % 5 == 0)
         {
-            return "Buzz";
+            result = "Buzz";
         }
 
-        if (inputNumber == 15)
+        if (inputNumber % 15 == 0)
         {
-            return "FizzBuzz";
+            result = "FizzBuzz";
         }
-        return String.valueOf(inputNumber);
+
+        return result;
     }
 
 }
