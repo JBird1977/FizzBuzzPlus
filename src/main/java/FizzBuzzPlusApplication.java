@@ -1,11 +1,35 @@
 public class FizzBuzzPlusApplication
 {
+
+    public static void main(String[] args)
+    {
+        for (int i = 1; i < 101; i++)
+        {
+            String answer = mainApplication(i);
+            System.out.println(answer);
+        }
+
+    }
     public static String mainApplication(int inputNumber)
     {
-        String result = String.valueOf(inputNumber);
-        boolean resultContainsThree = false;
-        boolean resultContainsFive = false;
 
+
+        String numberToTest = String.valueOf(inputNumber);
+        String result = "";
+
+        result = fizzBuzzCoreCheck(inputNumber);
+        if (result.equals("FizzBuzz"))
+        {
+            return result;
+        }
+        result = fizzBuzzPlusCheck(numberToTest);
+
+        return result;
+    }
+
+    public static String fizzBuzzCoreCheck(int inputNumber)
+    {
+        String result = String.valueOf(inputNumber);
         if (inputNumber % 3 == 0)
         {
             result = "Fizz";
@@ -21,38 +45,42 @@ public class FizzBuzzPlusApplication
             result = "FizzBuzz";
         }
 
-        if (result == "FizzBuzz")
-        {
-            return result;
-        }
+        return result;
+    }
 
-        for (char c : result.toCharArray())
+    public static String fizzBuzzPlusCheck(String numberToTest)
+    {
+        String result = numberToTest;
+        boolean numberContainsThree = false;
+        boolean numberContainsFive = false;
+        for (char c : numberToTest.toCharArray())
         {
             if (c == '3')
             {
-                resultContainsThree = true;
+                numberContainsThree = true;
             }
             if (c == '5')
             {
-                resultContainsFive = true;
+                numberContainsFive = true;
             }
         }
 
-        if (resultContainsThree)
+        if (numberContainsThree)
         {
             result = "Fizz";
         }
 
-        if (resultContainsFive)
+        if (numberContainsFive)
         {
             result = "Buzz";
         }
-        if (resultContainsThree && resultContainsFive)
+        if (numberContainsThree && numberContainsFive)
         {
             result = "FizzBuzz";
         }
 
         return result;
     }
-
 }
+
+
