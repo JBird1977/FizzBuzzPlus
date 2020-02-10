@@ -4,7 +4,9 @@
     <list default="true" id="e8c814fe-23eb-4e1b-9628-b745b82c0681" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FizzBuzzPlusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FizzBuzzPlusApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FizzBuzzPlusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FizzBuzzPlusTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/FizzBuzzPlusApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FizzBuzzPlusApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FizzBuzzPlusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FizzBuzzPlusTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzPlusTest">
+  <component name="RunManager" selected="JUnit.FizzBuzzPlusTest.InputFiftyThreeExpectFizzBuzz">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -58,11 +60,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzPlusTest.InputATwoExpectATwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzPlusTest.InputFiftyThreeExpectFizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FizzBuzzPlus" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzPlusTest" />
-      <option name="METHOD_NAME" value="InputATwoExpectATwo" />
+      <option name="METHOD_NAME" value="InputFiftyThreeExpectFizzBuzz" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzPlusTest.InputFiftyTwoExpectBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzzPlus" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzPlusTest" />
+      <option name="METHOD_NAME" value="InputFiftyTwoExpectBuzz" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzPlusTest.InputThirtyFiveExpectFizzBuzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzzPlus" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzPlusTest" />
+      <option name="METHOD_NAME" value="InputThirtyFiveExpectFizzBuzz" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzPlusTest.InputThirtyOneExpectFizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzzPlus" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzPlusTest" />
+      <option name="METHOD_NAME" value="InputThirtyOneExpectFizz" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -87,8 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzPlusTest.InputFiftyThreeExpectFizzBuzz" />
+        <item itemvalue="JUnit.FizzBuzzPlusTest.InputFiftyTwoExpectBuzz" />
+        <item itemvalue="JUnit.FizzBuzzPlusTest.InputThirtyFiveExpectFizzBuzz" />
         <item itemvalue="JUnit.FizzBuzzPlusTest" />
-        <item itemvalue="JUnit.FizzBuzzPlusTest.InputATwoExpectATwo" />
+        <item itemvalue="JUnit.FizzBuzzPlusTest.InputThirtyOneExpectFizz" />
       </list>
     </recent_temporary>
   </component>
@@ -110,25 +148,36 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1581278063772" />
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1581280994701">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1581293149115">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581280994701" />
-    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1581280994701">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581293149115" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1581293149115">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581280994701" />
-    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1581280994701">
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581293149115" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1581293149115">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581280994701" />
-    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1581280994701">
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581293149115" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1581293149115">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581280994701" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581293149115" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581277724021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581277724021" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FizzBuzzPlusTest.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
